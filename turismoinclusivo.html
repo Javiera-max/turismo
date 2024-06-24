@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Inclusivo en la Región Metropolitana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #023e8a;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        nav a:hover {
+            background-color: #caf0f8;
+            color: #023e8a;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 10px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        form input[type="submit"]:hover {
+            background-color: #023e8a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Turismo Inclusivo en la Región Metropolitana</h1>
+</header>
+
+<nav>
+    <a href="#sobre-nosotros">Sobre Nosotros</a>
+    <a href="#santiago">Santiago</a>
+    <a href="#providencia">Providencia</a>
+    <a href="#las-condes">Las Condes</a>
+    <a href="#maipu">Maipú</a>
+    <a href="#la-florida">La Florida</a>
+    <a href="#puente-alto">Puente Alto</a>
+    <a href="#penalolen">Peñalolén</a>
+    <a href="#vitacura">Vitacura</a>
+    <a href="#nunoa">Ñuñoa</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+    <div id="sobre-nosotros" class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenidos a nuestra página dedicada a promover el turismo inclusivo en la Región Metropolitana. Nuestro objetivo es brindar información y recursos para que todos, sin importar sus capacidades, puedan disfrutar de las maravillas que esta región tiene para ofrecer.</p>
+    </div>
+
+    <div id="santiago" class="section">
+        <h2>Santiago</h2>
+        <div class="card">
+            <h3>Parque Metropolitano</h3>
+            <p>El Parque Metropolitano cuenta con senderos accesibles, áreas de descanso y servicios adaptados para personas con discapacidades físicas. Además, se ofrecen guías en lenguaje de señas y actividades sensoriales para personas autistas.</p>
+        </div>
+        <div class="card">
+            <h3>Museo de la Memoria</h3>
+            <p>El Museo de la Memoria es totalmente accesible para personas con movilidad reducida. Dispone de intérpretes en lenguaje de señas y materiales educativos diseñados específicamente para personas con autismo.</p>
+        </div>
+    </div>
+
+    <div id="providencia" class="section">
+        <h2>Providencia</h2>
+        <div class="card">
+            <h3>Cerro San Cristóbal</h3>
+            <p>El Cerro San Cristóbal cuenta con rutas accesibles y miradores adaptados para personas con movilidad reducida. Se ofrecen audioguías y materiales en braille.</p>
+        </div>
+        <div class="card">
+            <h3>Centro Cultural de Providencia</h3>
+            <p>El Centro Cultural ofrece programas de arte inclusivo, con talleres y exposiciones accesibles para todos, incluidos intérpretes de lengua de señas.</p>
+        </div>
+    </div>
+
+    <div id="las-condes" class="section">
+        <h2>Las Condes</h2>
+        <div class="card">
+            <h3>Parque Araucano</h3>
+            <p>Parque con senderos accesibles y zonas de juego inclusivas. Hay actividades adaptadas para personas con discapacidad visual y auditiva.</p>
+        </div>
+        <div class="card">
+            <h3>Centro de Ski La Parva</h3>
+            <p>Centro de ski con programas de esquí adaptado para personas con movilidad reducida y autismo. Personal capacitado en atención inclusiva.</p>
+        </div>
+    </div>
+
+    <div id="maipu" class="section">
+        <h2>Maipú</h2>
+        <div class="card">
+            <h3>Plaza de Maipú</h3>
+            <p>Plaza accesible con áreas de juego inclusivas y rampas. Se realizan actividades recreativas adaptadas para todas las edades y capacidades.</p>
+        </div>
+        <div class="card">
+            <h3>Templo Votivo de Maipú</h3>
+            <p>Edificio histórico con accesos adaptados para personas con movilidad reducida. Audioguías y visitas guiadas en lenguaje de señas.</p>
+        </div>
+    </div>
+
+    <div id="la-florida" class="section">
+        <h2>La Florida</h2>
+        <div class="card">
+            <h3>Parque Quebrada de Macul</h3>
+            <p>Senderos accesibles y áreas de picnic adaptadas para personas con discapacidad. Actividades de contacto con la naturaleza para personas autistas.</p>
+        </div>
+        <div class="card">
+            <h3>Mall Plaza Vespucio</h3>
+            <p>Centro comercial con accesos y servicios adaptados, señalética en braille y personal capacitado para asistir a personas con diversas discapacidades.</p>
+        </div>
+    </div>
+
+    <div id="puente-alto" class="section">
+        <h2>Puente Alto</h2>
+        <div class="card">
+            <h3>Plaza de Puente Alto</h3>
+            <p>Plaza central con juegos y áreas recreativas accesibles. Programas de actividades inclusivas para niños y adultos.</p>
+        </div>
+        <div class="card">
+            <h3>Centro Cultural de Puente Alto</h3>
+            <p>Ofrece talleres de arte inclusivo y espectáculos adaptados, con intérpretes de lengua de señas y material accesible para personas con discapacidad visual.</p>
+        </div>
+    </div>
+
+    <div id="penalolen" class="section">
+        <h2>Peñalolén</h2>
+        <div class="card">
+            <h3>Parque Peñalolén</h3>
+            <p>Parque con senderos accesibles y áreas deportivas adaptadas para personas con discapacidades físicas y sensoriales.</p>
+        </div>
+        <div class="card">
+            <h3>Centro Comunitario</h3>
+            <p>Espacio comunitario que ofrece actividades recreativas y educativas inclusivas, con especial atención a personas autistas y sordomudas.</p>
+        </div>
+    </div>
+
+    <div id="vitacura" class="section">
+        <h2>Vitacura</h2>
+        <div class="
+
+
+
+
+ChatGPT
+card">
+<h3>Parque Bicentenario</h3>
+<p>Parque con senderos accesibles, áreas de descanso y juegos inclusivos. Se ofrecen actividades sensoriales y accesibles para todas las edades.</p>
+</div>
+<div class="card">
+<h3>Museo Ralli</h3>
+<p>Museo de arte con accesos adaptados, audioguías y exposiciones inclusivas diseñadas para personas con discapacidades sensoriales y cognitivas.</p>
+</div>
+</div>
+
+php
+Copiar código
+<div id="nunoa" class="section">
+    <h2>Ñuñoa</h2>
+    <div class="card">
+        <h3>Plaza Ñuñoa</h3>
+        <p>Plaza central con áreas de juego accesibles y rampas. Eventos y actividades inclusivas para personas de todas las edades y capacidades.</p>
+    </div>
+    <div class="card">
+        <h3>Teatro Municipal de Ñuñoa</h3>
+        <p>Teatro con accesos y servicios adaptados, así como subtítulos y servicios de interpretación en lenguaje de señas para personas con discapacidades auditivas.</p>
+    </div>
+</div>
+
+<div id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos:</p>
+    <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+</div>
+<footer>
+    <p>&copy; 2024 Turismo Inclusivo en la Región Metropolitana. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
+```
